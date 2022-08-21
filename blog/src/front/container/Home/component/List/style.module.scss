@@ -1,0 +1,54 @@
+.courses {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    margin: 15px auto 0 auto;
+    width: 1280px;
+    background-color: white;
+    .list {
+        padding:0 0 10px 0;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        .item {
+            width: 20%;
+            margin-top: 10px;
+            .link {
+                color: #000;
+                text-decoration: none;
+            }
+            .img {
+                display: block;
+                margin: 0 auto;
+                width: 240px;
+                height: 180px;
+                border-radius: 10px;
+            }
+            .title {
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                //标题省略
+                font-size: 16px;
+                font-weight: normal;
+                padding: 0 10px;
+                margin: 0;
+                line-height: 32px;
+            }
+            .desc {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 4;
+                //多行省略
+                font-size: 14px;
+                font-weight: normal;
+                padding: 0 10px;
+                margin: 0;
+                line-height: 24px;
+                color: #777;
+            }
+        }
+    }
+}

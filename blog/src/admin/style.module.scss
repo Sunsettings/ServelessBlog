@@ -1,0 +1,24 @@
+.triger {
+    margin-left: 20px;
+    color: #fff;
+}
+
+.sidbar {
+    padding: 10px 0;
+}
+
+.header {
+    padding: 0 20px;
+    .avatar {
+        float: right;
+        height: 50px;
+        width: 50px;
+        margin: 7px 10px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+}
+
+.content {
+    margin: 0;
+}
